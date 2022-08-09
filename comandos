@@ -1,0 +1,26 @@
+#rodar aplicação
+yarn dev
+
+#destruie
+yarn typeorm migration:revert 
+
+#executar
+yarn typeorm migration:run 
+
+#criar migration
+yarn typeorm migration:create -n CreateProducts
+
+
+
+
+#nomenclaturas
+controler:
+Service: são regras de negócio, ou seja, tratar antes de gravar
+Repositóries: são para acessar banco de dados,
+Metodos: são funções
+
+###instalações
+Json web token para gerar token (JWT)
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken
+
